@@ -18,7 +18,7 @@ const AddModal:FC<Props> = ({addHandler}) =>{
   }
 
   return(
-      <div className="w-[30vw] rounded-lg bg-white text-gray-800 p-6">
+      <div className="w-[90vw] md:w-[30vw] rounded-lg bg-white text-gray-800 p-6">
         <h1 className="font-bold mb-5">Add Task</h1>
         <form onSubmit={submitHandler} className="flex flex-col gap-4">
           <div>

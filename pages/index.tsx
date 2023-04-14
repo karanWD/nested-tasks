@@ -67,7 +67,7 @@ export type Data = {
 }
 export default function Home() {
   const [tasks, setTasks] = useState<Array<Data>>(data)
-  const [openList, setOpen] = useState([])
+  const [openList, setOpen] = useState<Array<number>>([])
   const [openModal, setOpenModal] = useState(false)
   const [parent, setParent] = useState<null | number>(null)
   //Toggle Items visibility
@@ -93,7 +93,7 @@ export default function Home() {
     setParent(null)
   }
   //Toggling Modal
-  const openModalHandler = (id = null) => {
+  const openModalHandler = (id:null|number = null) => {
     setOpenModal(prev => !prev);
     setParent(id)
   }
