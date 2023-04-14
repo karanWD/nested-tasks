@@ -1,7 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32af461052885bf011b64565d3cdf6fd9f2704c7274fef8.png)
+
+## Task manager 
+
+The Task Manager app is implemented with Next.js and can add infinite nested tasks.
+
+## Demo
+
+The app deployed on Vercel. You can see the demo [Here](https://nested-tasks.vercel.app/)
+
+
 
 ## Getting Started
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 First, run the development server:
 
 ```bash
